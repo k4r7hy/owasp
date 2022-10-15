@@ -18,7 +18,7 @@ This is a list compiled by me. karthy.k
 - [Information Gathering](#information-gathering)
     - [Conduct Search Engine Discovery Reconnaissance for Information Leakage](#conduct-search-engine-discovery-reconnaissance-for-information-leakage)
     - [Fingerprint Web Server](#fingerprint-web-server)
-    - [Self-hosted VPNs](#self-hosted-vpns)
+    - [Review Webserver Metafiles for Information Leakage](#review-webserver-metafiles-for-information-leakage)
 
 ## Information Gathering
 
@@ -36,3 +36,7 @@ This is a list compiled by me. karthy.k
 - [blindelephant](https://blindelephant.sourceforge.net/) A web application fingerprinter. Attempts to discover the version of a (known) web application by comparing static files at known locations
 - [httprint](http://www.net-square.com/httprint.html) A web server fingerprinting tool.
 - [p0f](http://lcamtuf.coredump.cx/p0f3/) is a tool that utilizes an array of sophisticated, purely passive traffic fingerprinting mechanisms to identify the players behind any incidental TCP/IP communications (often as little as a single normal SYN) without interfering in any way.
+
+### Review Webserver Metafiles for Information Leakage
+- [MetaFinder](https://github.com/Josue87/MetaFinder) Search for documents in a domain through Search Engines (Google, Bing and Baidu). The objective is to extract metadata.
+- [metagoofil](http://www.edge-security.com/metagoofil.php) An information gathering tool designed for extracting metadata of public documents.     
