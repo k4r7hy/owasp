@@ -23,7 +23,11 @@ This is a list compiled by me. karthy.k
     - [Review Webpage Content for Information Leakage](#review-webpage-content-for-information-leakage)
     - [Identify Application Entry Points](#identify-application-entry-points)
     - [Map Execution Paths Through Application](#map-execution-paths-through-application)
-- [Test Network Infrastructure Configuration](#test-network-infrastructure-configuration)
+- [Configuration and Deployment Management Testing](#configuration-and-deployment-management-testing)
+    - [Test Network Infrastructure Configuration](#test-network-infrastructure-configuration)
+    - [Test File Extensions Handling for Sensitive Information](#test-file-extensions-handling-for-sensitive-information)
+    - [Review Old Backup and Unreferenced Files for Sensitive Information](#review-old-backup-and-unreferenced-files-for-sensitive-information)
+    
 
 ## Information Gathering
 
@@ -73,14 +77,15 @@ This is a list compiled by me. karthy.k
 ## Configuration and Deployment Management Testing
 `
 ### Test Network Infrastructure Configuration
-```
-                               88                                                  88  
-                               88                         ,d                       88  
-                               88                         88                       88  
-8b,dPPYba,  ,adPPYba,  ,adPPYb,88 ,adPPYYba,  ,adPPYba, MM88MMM ,adPPYba,  ,adPPYb,88  
-88P'   "Y8 a8P_____88 a8"    `Y88 ""     `Y8 a8"     ""   88   a8P_____88 a8"    `Y88  
-88         8PP""""""" 8b       88 ,adPPPPP88 8b           88   8PP""""""" 8b       88  
-88         "8b,   ,aa "8a,   ,d88 88,    ,88 "8a,   ,aa   88,  "8b,   ,aa "8a,   ,d88  
-88          `"Ybbd8"'  `"8bbdP"Y8 `"8bbdP"Y8  `"Ybbd8"'   "Y888 `"Ybbd8"'  `"8bbdP"Y8  
-```
-                                                                                       
+- [OP5](https://www.itrsgroup.com/products/network-monitoring-op5-monitor) A server monitor that enables capacity planning and trend analysis.
+- [SolarWinds](https://www.solarwinds.com/server-configuration-monitor) SolarWinds’ server configuration monitor is a tool that can be used to detect any changes to the benchmark or a baseline configuration on both Windows and Linux servers..
+- [Motadata](https://www.motadata.com/) A network, server, and application monitoring tool that tracks disk volumes and spare capacity, CPU usage, and memory utilization.
+
+### Test File Extensions Handling for Sensitive Information
+- [fuxploider](https://github.com/almandin/fuxploider) Fuxploider is an open source penetration testing tool that automates the process of detecting and exploiting file upload forms flaws. This tool is able to detect the file types allowed to be uploaded and is able to detect which technique will work best to upload web shells or any malicious file on the desired web server.
+- [Image Upload Exploits](https://github.com/barrracud4/image-upload-exploits) This is a compilation of various files/attack vectors/exploits
+- [razboynik](https://github.com/raskyer/razboynik)Razboynik wants to be the best reverse shell based on PHP backdoor
+
+### Review Old Backup and Unreferenced Files for Sensitive Information
+- [Backup-Finder](https://github.com/moeinfatehi/Backup-Finder) A burp suite extension that reviews backup, old, temporary, and unreferenced files on the webserver for sensitive information.
+- [gHybridWebSearch](https://github.com/drgfragkos/gHybridWebSearch) Quick Hybrid Web Search for Old, Backup and Unreferenced Files for Sensitive Information
