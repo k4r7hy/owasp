@@ -31,7 +31,7 @@ This is a list compiled by me. karthy.k
 - [RobotScraper](https://github.com/robotshell/robotScraper) RobotScraper is a simple tool written in Python to check each of the paths found in the robots.txt file and what HTTP response code they return.
 
 ### Fingerprint Web Server
-- [httprecon](https://www.computec.ch/projekte/httprecon/?) The httprecon project is doing some research in the field of web server fingerprinting
+- [httprecon](https://www.computec.ch/projekte/httprecon/?) The goal is the highly accurate identification of given httpd implementations. This is very important within professional vulnerability analysis.
 - [asp-audit](https://seclists.org/basics/2006/Sep/128) An ASP fingerprinting tool and vulnerability scanner.
 - [blindelephant](https://blindelephant.sourceforge.net/) A web application fingerprinter. Attempts to discover the version of a (known) web application by comparing static files at known locations
 - [httprint](http://www.net-square.com/httprint.html) A web server fingerprinting tool.
