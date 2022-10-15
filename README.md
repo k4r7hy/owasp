@@ -27,6 +27,9 @@ This is a list compiled by me. karthy.k
     - [Test Network Infrastructure Configuration](#test-network-infrastructure-configuration)
     - [Test File Extensions Handling for Sensitive Information](#test-file-extensions-handling-for-sensitive-information)
     - [Review Old Backup and Unreferenced Files for Sensitive Information](#review-old-backup-and-unreferenced-files-for-sensitive-information)
+    - [Enumerate Infrastructure and Application Admin Interfaces](#enumerate-infrastructure-and-application-admin-interfaces)
+    - [Test HTTP Methods](#test-http-methods)
+    - [Test HTTP Strict Transport Security](#test-http-strict-transport-security)
     
 
 ## Information Gathering
@@ -75,7 +78,7 @@ This is a list compiled by me. karthy.k
 - [BurpExifToolScanner](https://github.com/LogicalTrust/BurpExifToolScanner) This Burp extension reads metadata from various filetypes (JPEG, PNG, PDF, DOC, XLS and much more) using ExifTool. Results are presented as Passive scan issues and Message editor tabs.
 
 ## Configuration and Deployment Management Testing
-`
+
 ### Test Network Infrastructure Configuration
 - [OP5](https://www.itrsgroup.com/products/network-monitoring-op5-monitor) A server monitor that enables capacity planning and trend analysis.
 - [SolarWinds](https://www.solarwinds.com/server-configuration-monitor) SolarWinds’ server configuration monitor is a tool that can be used to detect any changes to the benchmark or a baseline configuration on both Windows and Linux servers..
@@ -89,3 +92,19 @@ This is a list compiled by me. karthy.k
 ### Review Old Backup and Unreferenced Files for Sensitive Information
 - [Backup-Finder](https://github.com/moeinfatehi/Backup-Finder) A burp suite extension that reviews backup, old, temporary, and unreferenced files on the webserver for sensitive information.
 - [gHybridWebSearch](https://github.com/drgfragkos/gHybridWebSearch) Quick Hybrid Web Search for Old, Backup and Unreferenced Files for Sensitive Information
+
+### Enumerate Infrastructure and Application Admin Interfaces
+- [OKadminFinder](https://github.com/mIcHyAmRaNe/okadminfinder3) OKadminFinder is an Apache2 Licensed utility, rewritten in Python 3.x, for admins/pentesters who want to find admin panel of a website. There are many other tools but not as effective and secure. Yeah, Okadminfinder has the the ability to use tor and hide your identity
+- [Breacher](https://github.com/s0md3v/Breacher) A script to find admin login pages and EAR vulnerabilites.
+
+### Test HTTP Methods
+- [HTSHELLS](https://github.com/wireghoul/htshells) Self contained web shells and other attacks via .htaccess files.
+- [DotDotPwn](https://github.com/wireghoul/dotdotpwn) The Directory Traversal Fuzzer
+- [defparam/smuggler](https://github.com/defparam/smuggler) An HTTP Request Smuggling / Desync testing tool written in Python 3
+- [uploooadit](https://github.com/o-o-overflow/dc2020q-uploooadit) Author Walkthrough: https://youtu.be/F4khES7KBR4
+
+### Test HTTP Strict Transport Security
+- [sslstrip](https://github.com/moxie0/sslstrip) is a MITM tool that implements Moxie Marlinspike's SSL stripping attacks.
+- [zaproxy_ssl](https://github.com/arthepsy/zaproxy_ssl) This is SSL/TLS termination plugin for OWASP Zed Attack Proxy (ZAP), when it is being used as transparent (man-in-the-middle) proxy. Plugin takes advantage of TLS extension SNI (Server Name Indication).
+
+### 
