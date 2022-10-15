@@ -14,4 +14,23 @@ You will notice some items on this list have a :star2: next to them. Items with 
 ## Background Information
 This is a list compiled by me. karthy.k
 
+## Contents
+- [Information Gathering](#information-gathering)
+    - [Conduct Search Engine Discovery Reconnaissance for Information Leakage](#conduct-search-engine-discovery-reconnaissance-for-information-leakage)
+    - [Fingerprint Web Server](#fingerprint-web-server)
+    - [Self-hosted VPNs](#self-hosted-vpns)
+
+## Information Gathering
+
+### Conduct Search Engine Discovery Reconnaissance for Information Leakage
+- [go-dork](https://thatoneprivacysite.net/vpn-section/) The fastest dork scanner written in Go.
+- [ATSCAN SCANNER](https://github.com/AlisamTechnology/ATSCAN) Advanced Mass Search / Dork / Exploitation Scanner
+- [DORK SCANNER](https://github.com/madhavmehndiratta/dorkScanner) A typical search engine dork scanner that scrapes search engines with queries that you provide in order to find vulnerable URLs.
+- [XGDork² - SQLi Google Dork Scanner](https://github.com/E4rr0r4/XGDork-2) A simple 'naive' python tool to find SQLi Vulnerable websites in the wild.
+- [RobsScanner](https://github.com/NeloF4/RobsScanner) SIMPLE A ROBOTS.TXT SCANNER!
+- [RobotScraper](https://github.com/robotshell/robotScraper) RobotScraper is a simple tool written in Python to check each of the paths found in the robots.txt file and what HTTP response code they return.
+
+### Fingerprint Web Server
+- [
+
 
