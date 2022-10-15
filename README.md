@@ -19,6 +19,10 @@ This is a list compiled by me. karthy.k
     - [Conduct Search Engine Discovery Reconnaissance for Information Leakage](#conduct-search-engine-discovery-reconnaissance-for-information-leakage)
     - [Fingerprint Web Server](#fingerprint-web-server)
     - [Review Webserver Metafiles for Information Leakage](#review-webserver-metafiles-for-information-leakage)
+    - [Enumerate Applications on Webserver](#enumerate-applications-on-webserver)
+    - [Review Webpage Content for Information Leakage](#review-webpage-content-for-information-leakage)
+    - [Identify Application Entry Points](#identify-application-entry-points)
+    - [Map Execution Paths Through Application](#map-execution-paths-through-application)
 
 ## Information Gathering
 
@@ -53,3 +57,14 @@ This is a list compiled by me. karthy.k
 - [Curl](https://github.com/curl/curl) is a command-line tool for transferring data specified with URL syntax.
 - [Wget](https://github.com/mirror/wget) GNU Wget is a free utility for non-interactive download of files from the Web.
 - [Burp Suite](https://portswigger.net/burp/enterprise)  is a set of tools used for penetration testing of web applications.
+- [MetaFinder](https://github.com/Josue87/MetaFinder) Search for documents in a domain through Search Engines (Google, Bing and Baidu). The objective is to extract metadata.
+
+### Identify Application Entry Points
+- [Fiddler](https://www.telerik.com/fiddler) Fiddler is the beloved network proxy for countless developers. We look under the covers to explore various flavors of Fiddler and how it continues to serve developer needs.
+
+### Map Execution Paths Through Application
+- [gospider](https://github.com/jaeles-project/gospider) Fast web spider written in Go.
+- [manspider](https://github.com/blacklanternsecurity/MANSPIDER) Spider entire networks for juicy files sitting on SMB shares. Search filenames or file content - regex supported!
+- [Spider](https://github.com/buckyroberts/Spider) This is an open source, multi-threaded website crawler written in Python.
+- [DotnetSpider](https://github.com/dotnetcore/DotnetSpider) DotnetSpider, a .NET Standard web crawling library. It is a lightweight, efficient, and fast high-level web crawling & scraping framework.
+- [BurpExifToolScanner](https://github.com/LogicalTrust/BurpExifToolScanner) This Burp extension reads metadata from various filetypes (JPEG, PNG, PDF, DOC, XLS and much more) using ExifTool. Results are presented as Passive scan issues and Message editor tabs.
