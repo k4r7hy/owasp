@@ -40,3 +40,7 @@ This is a list compiled by me. karthy.k
 ### Review Webserver Metafiles for Information Leakage
 - [MetaFinder](https://github.com/Josue87/MetaFinder) Search for documents in a domain through Search Engines (Google, Bing and Baidu). The objective is to extract metadata.
 - [metagoofil](http://www.edge-security.com/metagoofil.php) An information gathering tool designed for extracting metadata of public documents.     
+- [Curl](https://github.com/curl/curl) is a command-line tool for transferring data specified with URL syntax.
+
+### Enumerate Applications on Webserver
+- [Monsoon](https://github.com/RedTeamPentesting/monsoon) A fast HTTP enumerator that allows you to execute a large number of HTTP requests.
