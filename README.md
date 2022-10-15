@@ -44,3 +44,7 @@ This is a list compiled by me. karthy.k
 
 ### Enumerate Applications on Webserver
 - [Monsoon](https://github.com/RedTeamPentesting/monsoon) A fast HTTP enumerator that allows you to execute a large number of HTTP requests.
+- [nullinux](https://github.com/m8sec/nullinux) is an internal penetration testing tool for Linux that can be used to enumerate OS information, domain information, shares, directories, and users through SMB.
+- [Sublist3r](https://github.com/aboul3la/Sublist3r) is a python tool designed to enumerate subdomains of websites using OSINT
+- [SubScraper](https://github.com/m8sec/subscraper) is a fast subdomain enumeration tool that uses a variety of techniques to find subdomains of a given target. Subdomain enumeration is especially helpful during penetration testing and bug bounty hunting to uncover an organization's attack surface.
+- [WebBorer](https://github.com/Matir/webborer) is a directory-enumeration tool written in Go and targeting CLI usage.
