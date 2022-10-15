@@ -30,6 +30,7 @@ This is a list compiled by me. karthy.k
     - [Enumerate Infrastructure and Application Admin Interfaces](#enumerate-infrastructure-and-application-admin-interfaces)
     - [Test HTTP Methods](#test-http-methods)
     - [Test HTTP Strict Transport Security](#test-http-strict-transport-security)
+    - [Test RIA Cross Domain Policy](#test-ria-cross-domain-policy)
     
 
 ## Information Gathering
@@ -106,5 +107,11 @@ This is a list compiled by me. karthy.k
 ### Test HTTP Strict Transport Security
 - [sslstrip](https://github.com/moxie0/sslstrip) is a MITM tool that implements Moxie Marlinspike's SSL stripping attacks.
 - [zaproxy_ssl](https://github.com/arthepsy/zaproxy_ssl) This is SSL/TLS termination plugin for OWASP Zed Attack Proxy (ZAP), when it is being used as transparent (man-in-the-middle) proxy. Plugin takes advantage of TLS extension SNI (Server Name Indication).
+
+### Test RIA Cross Domain Policy
+- [CrossDomain Scanner](https://github.com/mandatoryprogrammer/xpire-crossdomain-scanner) Scan domains' crossdomain.xml file for expired security issues.
+- [MalaRIA-Proxy](https://github.com/eoftedal/MalaRIA-Proxy) Proof of concept code for a proxy abusing unrestricted cross domain policies.
+- [Nikto](https://github.com/sullo/nikto) Nikto web server scanner
+- [W3af](https://github.com/andresriancho/w3af) Web Application Attack and Audit Framework.
 
 ### 
