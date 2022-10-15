@@ -48,3 +48,8 @@ This is a list compiled by me. karthy.k
 - [Sublist3r](https://github.com/aboul3la/Sublist3r) is a python tool designed to enumerate subdomains of websites using OSINT
 - [SubScraper](https://github.com/m8sec/subscraper) is a fast subdomain enumeration tool that uses a variety of techniques to find subdomains of a given target. Subdomain enumeration is especially helpful during penetration testing and bug bounty hunting to uncover an organization's attack surface.
 - [WebBorer](https://github.com/Matir/webborer) is a directory-enumeration tool written in Go and targeting CLI usage.
+
+### Review Webpage Content for Information Leakage
+- [Curl](https://github.com/curl/curl) is a command-line tool for transferring data specified with URL syntax.
+- [Wget](https://github.com/mirror/wget) GNU Wget is a free utility for non-interactive download of files from the Web.
+- [Burp Suite](https://portswigger.net/burp/enterprise)  is a set of tools used for penetration testing of web applications.
