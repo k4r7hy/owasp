@@ -23,6 +23,7 @@ This is a list compiled by me. karthy.k
     - [Review Webpage Content for Information Leakage](#review-webpage-content-for-information-leakage)
     - [Identify Application Entry Points](#identify-application-entry-points)
     - [Map Execution Paths Through Application](#map-execution-paths-through-application)
+- [Test Network Infrastructure Configuration](#test-network-infrastructure-configuration)
 
 ## Information Gathering
 
@@ -68,3 +69,18 @@ This is a list compiled by me. karthy.k
 - [Spider](https://github.com/buckyroberts/Spider) This is an open source, multi-threaded website crawler written in Python.
 - [DotnetSpider](https://github.com/dotnetcore/DotnetSpider) DotnetSpider, a .NET Standard web crawling library. It is a lightweight, efficient, and fast high-level web crawling & scraping framework.
 - [BurpExifToolScanner](https://github.com/LogicalTrust/BurpExifToolScanner) This Burp extension reads metadata from various filetypes (JPEG, PNG, PDF, DOC, XLS and much more) using ExifTool. Results are presented as Passive scan issues and Message editor tabs.
+
+## Configuration and Deployment Management Testing
+`
+### Test Network Infrastructure Configuration
+```
+                               88                                                  88  
+                               88                         ,d                       88  
+                               88                         88                       88  
+8b,dPPYba,  ,adPPYba,  ,adPPYb,88 ,adPPYYba,  ,adPPYba, MM88MMM ,adPPYba,  ,adPPYb,88  
+88P'   "Y8 a8P_____88 a8"    `Y88 ""     `Y8 a8"     ""   88   a8P_____88 a8"    `Y88  
+88         8PP""""""" 8b       88 ,adPPPPP88 8b           88   8PP""""""" 8b       88  
+88         "8b,   ,aa "8a,   ,d88 88,    ,88 "8a,   ,aa   88,  "8b,   ,aa "8a,   ,d88  
+88          `"Ybbd8"'  `"8bbdP"Y8 `"8bbdP"Y8  `"Ybbd8"'   "Y888 `"Ybbd8"'  `"8bbdP"Y8  
+```
+                                                                                       
