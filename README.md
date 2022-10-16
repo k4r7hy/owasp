@@ -34,6 +34,7 @@ This is a list compiled by me. karthy.k
     - [Test File Permission](#test-file-permission)
     - [Test for Subdomain Takeover](#test-for-subdomain-takeover)
     - [Test Cloud Storage](#test-cloud-storage)
+- [Identity Management Testing](#identity-management-testing)
     
 
 ## Information Gathering
@@ -128,3 +129,11 @@ This is a list compiled by me. karthy.k
 ### Test Cloud Storage
 - [hackingthe.cloude](https://github.com/Hacking-the-Cloud/hackingthe.cloud) Hacking the cloud is an encyclopedia of the attacks/tactics/techniques that offensive security professionals can use on their next cloud exploitation adventure. The goal is to share this knowledge with the security community to better defend cloud environments.
 - [AWS Hacking](https://github.com/opendevsecops/guide-aws-hacking) This guide provides some basic instructions how to compromise AWS. The hope is that by knowing how to take advantage of various types of AWS weaknesses you will be verse enough to provide the correct countermeasures.
+
+## Identity Management Testing
+
+### Test Role Definitions
+- [Autorize](https://github.com/Quitten/Autorize) Autorize is an automatic authorization enforcement detection extension for Burp Suite. It was written in Python by Barak Tawily, an application security expert.
+- [ZAP’s Access Control Testing add-on](https://www.zaproxy.org/docs/desktop/addons/access-control-testing/) This add-on enables users to compare which parts of a web-application are available to some users, do access control testing and identify potential access control issues. It allows configuration of access rules and conducts a full attack aimed to help identify sections of a web application which are accessible by unauthorized clients.
+- [sudo](https://github.com/sudo-project/sudo) Sudo is a program designed to allow a sysadmin to give limited root privileges to users and log root activity. The basic philosophy is to give as few privileges as possible but still allow people to get their work done.
+- [userdel](https://github.com/shadow-maint/shadow/blob/master/src/userdel.c) The shadow-utils package includes the necessary programs for converting UNIX password files to the shadow password format, plus programs for managing user and group accounts. 
