@@ -31,6 +31,9 @@ This is a list compiled by me. karthy.k
     - [Test HTTP Methods](#test-http-methods)
     - [Test HTTP Strict Transport Security](#test-http-strict-transport-security)
     - [Test RIA Cross Domain Policy](#test-ria-cross-domain-policy)
+    - [Test File Permission](#test-file-permission)
+    - [Test for Subdomain Takeover](#test-for-subdomain-takeover)
+    - [Test Cloud Storage](#test-cloud-storage)
     
 
 ## Information Gathering
@@ -114,4 +117,14 @@ This is a list compiled by me. karthy.k
 - [Nikto](https://github.com/sullo/nikto) Nikto web server scanner
 - [W3af](https://github.com/andresriancho/w3af) Web Application Attack and Audit Framework.
 
-### 
+### Test File Permission
+- [namei](https://man7.org/linux/man-pages/man1/namei.1.html) can also be used to recursively list file permissions.
+- [ls](https://man7.org/linux/man-pages/man1/ls.1.html) command to check the file permissions
+
+### Test for Subdomain Takeover
+- [Takeover](https://github.com/m4ll0k/takeover) Sub-domain takeover vulnerability occur when a sub-domain (subdomain.example.com) is pointing to a service (e.g: GitHub, AWS/S3,..) that has been removed or deleted. This allows an attacker to set up a page on the service that was being used and point their page to that sub-domain.
+- [NtHiM](https://github.com/TheBinitGhimire/NtHiM) NtHiM (Now, the Host is Mine!) is a command-line utility built with Rust, which enables security enthusiasts to discover subdomain takeover vulnerabilities in hostnames (domains and subdomains) from different organizations.
+
+### Test Cloud Storage
+- [hackingthe.cloude](https://github.com/Hacking-the-Cloud/hackingthe.cloud) Hacking the cloud is an encyclopedia of the attacks/tactics/techniques that offensive security professionals can use on their next cloud exploitation adventure. The goal is to share this knowledge with the security community to better defend cloud environments.
+- [AWS Hacking](https://github.com/opendevsecops/guide-aws-hacking) This guide provides some basic instructions how to compromise AWS. The hope is that by knowing how to take advantage of various types of AWS weaknesses you will be verse enough to provide the correct countermeasures.
