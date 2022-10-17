@@ -183,3 +183,11 @@ Some websites will lock you out if you try and fail three times in a row some wi
 ### Testing for Browser Cache Weaknesses
 - [HackBrowserData](https://github.com/moonD4rk/HackBrowserData) HackBrowserData is an open-source tool that could help you decrypt data ( password|bookmark|cookie|history|credit card|download|localStorage|extension ) from the browser. It supports the most popular browsers on the market and runs on Windows, macOS and Linux.
 -  [Track Incognito Browsing History](https://github.com/saiprasad2595/Incognito-browser-history) This small script helps you to get browsing history which you have searched even in incognito mode.
+
+### Testing for Weak Password Policy
+- [bruteforce-database](https://github.com/duyet/bruteforce-database) A Password dictionaries.
+- [rischanlab/bruteforce_py](https://github.com/rischanlab/bruteforce_py) bruteforce with python, ssh bf, wordpress bf, cpanel bf, mysql bf, etc
+
+### Testing for Weak Security Question Answer
+                                                             ¯\_(ツ)_/¯
+- [The OWASP Security Questions Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Choosing_and_Using_Security_Questions_Cheat_Sheet.html) While there are no acceptable uses of security questions in secure software, this cheat sheet provides guidance on how to choose strong security questions for legacy purposes.
