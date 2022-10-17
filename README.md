@@ -149,4 +149,14 @@ This is a list compiled by me. karthy.k
                                                     ¯\_(ツ)_/¯
 The most thorough and accurate approach to completing this test is to conduct it manually, HTTP proxy tools could be also useful.
 
-### 
+### Testing for Account Enumeration and Guessable User Account
+         THE GAME PLAN IS TO GENERATE PASSWORDS AND USERNAMES USING TTPASSGEN AND ATTACK IT USING THC-HYDRA
+- [ttpassgen](https://github.com/tp7309/TTPassGen) 	Highly flexible and scriptable password dictionary generator based on Python.
+- [THC-Hydra](https://github.com/vanhauser-thc/thc-hydra) Number one of the biggest security holes are passwords, as every password security study shows.This tool is a proof of concept code, to give researchers and security consultants the possibility to show how easy it would be to gain unauthorized access from remote to a system.
+
+## Testing for Weak or Unenforced Username Policy
+- [Scythe](https://github.com/ChrisJohnRiley/Scythe) Account Enumerator is designed to make it simple to perform account enumeration as part of security testing. The framework offers the ability to easily create new modules (XML files) and speed up the process of testing.
+- [smtp-enum](https://github.com/z0mbiehunt3r/smtp-enum) Enumerates email accounts through different methods like VRFY, EXPN and RCPT TO.
+
+
+
