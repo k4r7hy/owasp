@@ -191,3 +191,29 @@ Some websites will lock you out if you try and fail three times in a row some wi
 ### Testing for Weak Security Question Answer
                                                              ¯\_(ツ)_/¯
 - [The OWASP Security Questions Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Choosing_and_Using_Security_Questions_Cheat_Sheet.html) While there are no acceptable uses of security questions in secure software, this cheat sheet provides guidance on how to choose strong security questions for legacy purposes.
+
+### Testing for Weak Password Change or Reset Functionalities
+                                                              ¯\_(ツ)_/¯
+- [OWASP Forgot Password Cheat Sheet]https://cheatsheetseries.owasp.org/cheatsheets/Forgot_Password_Cheat_Sheet.html) Forgot Password Cheat Sheet
+
+### Testing for Weaker Authentication in Alternative Channel
+                                                              ¯\_(ツ)_/¯
+Requires manual testing cannont automate 
+
+### Authorization Testing
+
+## Testing Directory Traversal File Include
+- [Uploader](https://github.com/thec00n/Uploader) The Burp extension verifies if file uploads are vulnerable to directory traversal vulnerabilities.
+- [Directory traversal tester](https://github.com/markchalloner/directory-traversal) Takes a series of paths on the STDIN and tests the against a filtering regular expression to ensure safety from directory traversal attacks.
+
+## Testing for Bypassing Authorization Schema
+- [OWASP Zed Attack Proxy (ZAP)](https://owasp.org/www-project-zap/) ZAP add-on: Access Control Testing
+- [Port Swigger Burp Suite](https://portswigger.net) Burp extension: AuthMatrix, Burp extension: Autorize
+
+## Testing for Privilege Escalation
+- [GTFOBins](https://gtfobins.github.io) GTFOBins is a curated list of Unix binaries that can be used to bypass local security restrictions in misconfigured systems.
+- [RogueWinRM](https://github.com/antonioCoco/RogueWinRM) RogueWinRM is a local privilege escalation exploit that allows to escalate from a Service account (with SeImpersonatePrivilege) to Local System account if WinRM service is not running (default on Win10 but NOT on Windows Server 2019).
+
+## Testing for Insecure Direct Object References
+- [Aimon-Srl-IDOR-PoC](https://github.com/kusky3/Aimon-Srl-IDOR-PoC) This linear processing bruteforce script will harvest 1 valid url every ~2000 requests at 2 requests per second. At 20 requests per second you'll harvest 1 valid url per minute or 1440 per day.
+- [dore](https://github.com/naryal2580/dore) Direct Object Reference Exploitation
