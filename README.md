@@ -35,7 +35,8 @@ This is a list compiled by me. karthy.k
     - [Test for Subdomain Takeover](#test-for-subdomain-takeover)
     - [Test Cloud Storage](#test-cloud-storage)
 - [Identity Management Testing](#identity-management-testing)
-    
+    - [Test Role Definitions](#test-role-definitions)
+
 
 ## Information Gathering
 
@@ -137,3 +138,15 @@ This is a list compiled by me. karthy.k
 - [ZAP’s Access Control Testing add-on](https://www.zaproxy.org/docs/desktop/addons/access-control-testing/) This add-on enables users to compare which parts of a web-application are available to some users, do access control testing and identify potential access control issues. It allows configuration of access rules and conducts a full attack aimed to help identify sections of a web application which are accessible by unauthorized clients.
 - [sudo](https://github.com/sudo-project/sudo) Sudo is a program designed to allow a sysadmin to give limited root privileges to users and log root activity. The basic philosophy is to give as few privileges as possible but still allow people to get their work done.
 - [userdel](https://github.com/shadow-maint/shadow/blob/master/src/userdel.c) The shadow-utils package includes the necessary programs for converting UNIX password files to the shadow password format, plus programs for managing user and group accounts. 
+
+### Test User Registration Process
+- [binproxy](https://github.com/nccgroup/BinProxy/) A proxy for arbitrary TCP connections.
+- [datajackproxy](https://github.com/nccgroup/DatajackProxy) Datajack Proxy a tool to intercept non-HTTP traffic between a native application and a server. This would allow for communications interception and modification, even if encryption and certificate pinning were in use. This is done by hooking the application and intercepting calls to common socket and TLS libraries, and reading the data prior to encryption.
+- [pappy-proxy](https://github.com/roglew/pappy-proxy) An intercepting proxy for web application testing.
+- [mitmproxy](https://mitmproxy.org) SSL-capable man-in-the-middle HTTP proxy
+
+### Test Account Provisioning Process
+                                                    ¯\_(ツ)_/¯
+The most thorough and accurate approach to completing this test is to conduct it manually, HTTP proxy tools could be also useful.
+
+### 
