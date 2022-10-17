@@ -36,7 +36,10 @@ This is a list compiled by me. karthy.k
     - [Test Cloud Storage](#test-cloud-storage)
 - [Identity Management Testing](#identity-management-testing)
     - [Test Role Definitions](#test-role-definitions)
-
+    - [Test User Registration Process](#test-user-registration-process)
+    - [Test Account Provisioning Process](#test-account-provisioning-process)
+    - [Testing for Account Enumeration and Guessable User Account](#testing-for-account-enumeration-and-guessable-user-account)
+    - [Testing for Weak or Unenforced Username Policy](#testing-for-weak-or-unenforced-username-policy)
 
 ## Information Gathering
 
@@ -158,5 +161,25 @@ The most thorough and accurate approach to completing this test is to conduct it
 - [Scythe](https://github.com/ChrisJohnRiley/Scythe) Account Enumerator is designed to make it simple to perform account enumeration as part of security testing. The framework offers the ability to easily create new modules (XML files) and speed up the process of testing.
 - [smtp-enum](https://github.com/z0mbiehunt3r/smtp-enum) Enumerates email accounts through different methods like VRFY, EXPN and RCPT TO.
 
+## Authentication Testing
 
+### Testing for Credentials Transported over an Encrypted Channel
+Test using wireshark if the website is leaking sensitive information, try https downgrade attacks. by downgrade i mean dropping the client from https to http, check if HSTS is enabled if not then we have an attack vector
 
+### Testing for Default Credentials
+Use thc-hydra or any password dictionary attack script along with a good world list, for example https://wiki.skullsecurity.org/index.php/Passwords and try to attack the website if its vulnerable to default creds it should not take long to find the users
+
+### Testing for Weak Lock Out Mechanism
+Some websites will lock you out if you try and fail three times in a row some will fail if u guess 5 consecutive times. websites which dosent are suseptable to brute force and dictionary attacks. hence websites must have a lock out mechanisms.
+
+### Testing for Bypassing Authentication Schema
+- [sqlmap](https://github.com/sqlmapproject/sqlmap) sqlmap is an open source penetration testing tool that automates the process of detecting and exploiting SQL injection flaws and taking over of database servers. 
+- [PyBrute](https://github.com/rashidalabri/PyBrute)A python script to bruteforce post, get and cookie values.
+
+### Testing for Vulnerable Remember Password
+- [Clickjacking Tester](https://github.com/D4Vinci/Clickjacking-Tester) A python script designed to check if the website is vulnerable of clickjacking and creates a poc.
+- [Bolt](https://github.com/s0md3v/Bolt) A dumb CSRF scanner
+
+### Testing for Browser Cache Weaknesses
+- [HackBrowserData](https://github.com/moonD4rk/HackBrowserData) HackBrowserData is an open-source tool that could help you decrypt data ( password|bookmark|cookie|history|credit card|download|localStorage|extension ) from the browser. It supports the most popular browsers on the market and runs on Windows, macOS and Linux.
+-  [Track Incognito Browsing History](https://github.com/saiprasad2595/Incognito-browser-history) This small script helps you to get browsing history which you have searched even in incognito mode.
